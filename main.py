@@ -163,7 +163,6 @@ class AddressBook(UserDict):
             print("No users to congratulate in the next 7 days!")
 
 
-# Clean operational functions wrapped in your error decorator
 @input_error
 def add_contact(args, book):
     name, phone = args
